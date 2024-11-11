@@ -1,10 +1,6 @@
 taps=(
-	homebrew/cask
-	homebrew/cask-fonts
-	homebrew/core
-	ox/ox
-	vmware-tanzu/carvel
 	wez/wezterm
+	xo/xo
 )
 
 packages=(
@@ -59,7 +55,7 @@ packages=(
 	websocat   # https://github.com/vi/websocat
 	wget
 	zsh
-  zinit      # https://github.com/zdharma-continuum/zinit
+  	zinit      # https://github.com/zdharma-continuum/zinit
 	zoxide     # https://github.com/ajeetdsouza/zoxide
 )
 

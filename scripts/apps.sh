@@ -1,23 +1,20 @@
 apps=(
-	arduino
-	clipy # Clipboard manager https://github.com/Clipy/Clipy
-	deepl
-	discord
-	docker
-	firefox
-	google-chrome
-	rectangle # Window util
-	slack
-	spotify
-	visual-studio-code
-	vlc
-	wez/wezterm/wezterm # Terminal https://wezfurlong.org/wezterm
+	#clipy # Clipboard manager https://github.com/Clipy/Clipy
+	#deepl
+	#discord
+	#docker
+	#firefox
+	#google-chrome
+	#rectangle # Window util
+	#slack
+	#spotify
+	#visual-studio-code
+	#vlc
+	#wez/wezterm/wezterm # Terminal https://wezfurlong.org/wezterm
 )
 
 mas_apps=(
-	"937984704"  # Amphetamine
-	"1444383602" # Good Notes 5
-	"768053424"  # Gappling (svg viewer)
+	#"1234"  # Example
 )
 
 install_macos_apps() {

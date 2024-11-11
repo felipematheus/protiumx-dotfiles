@@ -34,71 +34,71 @@ main() {
 	post_install_packages
 	success "Finished installing Homebrew packages"
 
-	info "################################################################################"
-	info "Homebrew Fonts"
-	info "################################################################################"
-	wait_input
-	install_fonts
-	success "Finished installing fonts"
+	#info "################################################################################"
+	#info "Homebrew Fonts"
+	#info "################################################################################"
+	#wait_input
+	#install_fonts
+	#success "Finished installing fonts"
 
-	info "################################################################################"
-	info "Oh-my-zsh"
-	info "################################################################################"
-	wait_input
-	install_oh_my_zsh
-	success "Finished installing Oh-my-zsh"
+	#info "################################################################################"
+	#info "Oh-my-zsh"
+	#info "################################################################################"
+	#wait_input
+	#install_oh_my_zsh
+	#success "Finished installing Oh-my-zsh"
 
-	info "################################################################################"
-	info "MacOS Apps"
-	info "################################################################################"
-	wait_input
-	install_macos_apps
+	#info "################################################################################"
+	#info "MacOS Apps"
+	#info "################################################################################"
+	#wait_input
+	#install_macos_apps
 
-	install_masApps
-	success "Finished installing macOS apps"
+	#install_masApps
+	#success "Finished installing macOS apps"
 
-	info "################################################################################"
-	info "PiP modules"
-	info "################################################################################"
-	wait_input
-	install_python_packages
-	success "Finished installing python packages"
+	#info "################################################################################"
+	#info "PiP modules"
+	#info "################################################################################"
+	#wait_input
+	#install_python_packages
+	#success "Finished installing python packages"
 
 	info "################################################################################"
 	info "Rust tools"
 	info "################################################################################"
-	wait_input
+	#wait_input
 	install_rust_tools
 	success "Finished installing Rust tools"
 
 	info "################################################################################"
 	info "Golang tools"
 	info "################################################################################"
-	wait_input
+	#wait_input
 	install_go_tools
 	success "Finished installing Golang tools"
 
 	info "################################################################################"
 	info "Configuration"
 	info "################################################################################"
-	wait_input
+	#wait_input
 
-	setup_osx
-	success "Finished configuring MacOS defaults. NOTE: A restart is needed"
+	#setup_osx
+	#success "Finished configuring MacOS defaults. NOTE: A restart is needed"
 
-	stow_dotfiles
-	success "Finished stowing dotfiles"
+	#stow_dotfiles
+	#success "Finished stowing dotfiles"
 
-	info "################################################################################"
-	info "Crating development folders"
-	info "################################################################################"
-	mkdir -p ~/Development/protiumx
+	#info "################################################################################"
+	#info "Crating development folders"
+	#info "################################################################################"
+	#mkdir -p ~/Development/protiumx
 
-	info "################################################################################"
-	info "SSH Key"
-	info "################################################################################"
-	setup_github_ssh
-	success "Finished setting up SSH Key"
+	#info "################################################################################"
+	#info "SSH Key"
+	#info "################################################################################"
+	#setup_github_ssh
+	#success "Finished setting up SSH Key"
 
 	if ! hash rustc &>/dev/null; then
 		info "################################################################################"

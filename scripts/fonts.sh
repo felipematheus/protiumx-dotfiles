@@ -1,9 +1,5 @@
-fonts=(
-	font-fira-code
-)
 
 install_fonts() {
 	info "Installing fonts..."
-	brew tap homebrew/cask-fonts
-	install_brew_casks "${fonts[@]}"
+	brew search '/font-.*-nerd-font/' | awk '{ print $1 }' | xargs brew install --cask
 }
